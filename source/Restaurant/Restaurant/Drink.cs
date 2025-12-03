@@ -13,5 +13,10 @@
             AlcoholPercentage = alcoholPercentage;
         }
 
+        public override void Print()
+        {
+            Console.WriteLine($"- {Name} | {Category} | {AlcoholPercentage} | {Price} грн / {Volume} г / {Calories} ккал");
+
+        }
     }
 }

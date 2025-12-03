@@ -1,6 +1,6 @@
 ﻿namespace Restaurant
 {
-    public abstract class MenuItem
+    public abstract class MenuItem : IPrintable
     {
         private static int _index = 1;
 
@@ -21,5 +21,7 @@
             _price = price;
             _calories = calories;
         }
+
+        public abstract void Print();
     }
 }

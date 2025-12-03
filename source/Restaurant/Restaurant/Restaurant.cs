@@ -34,5 +34,14 @@
                 order.Print();
             }
         }
+
+        public void PrintAllItems()
+        {
+            Console.WriteLine("--- МЕНЮ РЕСТОРАНУ ---");
+            foreach (var item in Items)
+            {
+                item.Print();
+            }
+        }
     }
 }

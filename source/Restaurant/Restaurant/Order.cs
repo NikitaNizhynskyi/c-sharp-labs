@@ -1,6 +1,6 @@
 ﻿namespace Restaurant
 {
-    public class Order
+    public class Order : IPrintable
     {
         private static int _index = 1;
         public int Id { get; }

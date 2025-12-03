@@ -11,5 +11,10 @@
             Weight = weight;
         }
 
+        public override void Print()
+        {
+            Console.WriteLine($"- {Name} | {Category} | {Price} грн / {Weight} г / {Calories} ккал");
+
+        }
     }
 }

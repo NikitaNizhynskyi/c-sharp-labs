@@ -10,10 +10,11 @@
             Dish borsch = new Dish("Борщ", 130m, 250, DishCategory.FirstCourses, 180.0);
             Drink tea = new Drink("Чай", 60m, 24, DrinkCategory.Tea, 200.0, 0.0);
 
-
             restaurant.AddItem(varenyky);
             restaurant.AddItem(borsch);
             restaurant.AddItem(tea);
+
+            restaurant.PrintAllItems();
 
             Order order1 = new Order(5);
             order1.AddItem(varenyky);
